@@ -1,19 +1,66 @@
-
-.some {
-	behavior: url(js/PIE.htc);
-	position: relative;
+/*
+Name: 			ie.css
+Written by: 	Okler Themes - (http://www.okler.net)
+Version: 		3.7.0
+*/
+/* Header */
+html.ie header {
+	background: #fff;
+	filter: none;
 }
 
-
-#form .invalid .error-message, #form .empty .empty-message {
-	display: block;
+/* Navigation */
+html.ie8 header nav ul.nav-main ul.dropdown-menu,
+html.ie9 header nav ul.nav-main ul.dropdown-menu {
+	filter: none !important;
 }
 
-#form .error-message, #form .empty-message {
-	display: none;
+html.ie8 div.home-concept,
+html.ie8 div.home-concept div.process-image,
+html.ie8 div.home-concept div.project-image {
+	background: none;
 }
 
-a.gal:hover img { 
-	filter:progid:DXImageTransform.Microsoft.Alpha(opacity=20);
+/* Social Icons */
+html.ie8 header ul.social-icons {
+	margin-top: 2px;
+}
 
+html.ie8 header ul.social-icons li {
+	background-color: #F1F1F1;
+}
+
+/* History */
+html.ie8 ul.history li div.thumb {
+	background: none;
+}
+
+/* Testimonials */
+html.ie8 div.testimonial-author div.img-thumbnail {
+	height: 60px;
+	width: 60px;
+}
+
+html.ie8 div.testimonial-author div.img-thumbnail img {
+	float: left;
+}
+
+/* Pricing Plans */
+html.ie8 div.plan-ribbon-wrapper {
+	top: -30px;
+}
+
+html.ie8 div.plan-ribbon-wrapper div.plan-ribbon {
+	text-align: left;
+	padding-left: 20px;
+}
+
+/* Parallax */
+html.ie8 .parallax {
+	background-position: 50% 50% !important;
+}
+
+/* Thumbs */
+html.ie8 .thumb-info .thumb-info-title {
+	background: #000;
 }
